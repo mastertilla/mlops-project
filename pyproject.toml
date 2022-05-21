@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "mlops-project"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Montilla Navas"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyterlab = "^3.4.2"
+pandas = "^1.4.2"
+seaborn = "^0.11.2"
+matplotlib = "^3.5.2"
+scikit-learn = "^1.1.1"
+pyarrow = "^8.0.0"
+fastparquet = "^0.8.1"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.13.9"
+black = "^22.3.0"
+pytest = "^7.1.2"
+pre-commit = "^2.19.0"
+mypy = "^0.950"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
